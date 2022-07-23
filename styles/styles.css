@@ -22,9 +22,55 @@
   font-display: swap;
 }
 
+.body {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  margin: 0;
+}
+
 .page-header {
   width: 1160px;
   min-height: 300px;
   background-color: #FFE17F;
   margin: 0 auto;
+  margin-top: 40px;
+}
+
+.header-form {
+  padding-top: 45px;
+  margin-left: 60px;
+  display: flex;
+  height: 40px;
+}
+
+.field {
+  font-family: "rubik", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  box-sizing: content-box;
+  width: 309px;
+  border-radius: 20px 0 0 20px;
+  border: 2px solid #000000;
+  padding: 0;
+  padding-left: 46px;
+  background-color: #FFE17F;
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+  background-position: 14px 10px;
+  background-size: 16px 16px;
+}
+
+.header-button {
+  font-family: "rubik", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  border: 2px solid #000000;
+  border-left: none;
+  padding: 0;
+  width: 158px;
+  background-color: #FFE17F;
+  border-radius: 0 20px 20px 0;
 }
