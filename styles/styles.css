@@ -22,7 +22,7 @@
   font-display: swap;
 }
 
-.body {
+body {
   font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -45,9 +45,7 @@
   top: -21px;
 }
 
-.header-form {
-  padding-top: 45px;
-  margin-left: 60px;
+.navigation-form {
   display: flex;
   height: 40px;
 }
@@ -80,4 +78,41 @@
   width: 158px;
   background-color: #FFE17F;
   border-radius: 0 20px 20px 0;
+}
+
+.navigation {
+  display: flex;
+  padding-top: 45px;
+  margin-left: 60px;
+  width: 1040px;
+  min-height: 60px;
+
+}
+
+.navigation-user {
+
+}
+
+.user-button {
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #FFE17F;
+  height: 30px;
+  width: 81px;
+  background-image: url("../images/user.svg");
+  background-repeat: no-repeat;
+  text-align: end;
+  padding: 0;
+  margin-left: 26px;
+}
+
+.navigation-list {
+  display: flex;
+  list-style-type: none;
+  color: #000000;
+}
+
+.navigation-link {
+  text-decoration: none;
 }
