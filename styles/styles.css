@@ -36,6 +36,13 @@
   background-color: #FFE17F;
   margin: 0 auto;
   margin-top: 40px;
+  position: relative;
+}
+
+.logo-device {
+  position: absolute;
+  left: 60px;
+  top: -21px;
 }
 
 .header-form {
