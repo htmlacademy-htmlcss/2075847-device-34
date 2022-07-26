@@ -39,10 +39,26 @@ body {
   position: relative;
 }
 
-.logo-device {
+.logo-link {
   position: absolute;
-  left: 60px;
-  top: -21px;
+  border: 2px solid #b04fff00;
+  width: 145px;
+  height: 47px;
+  top: -23px;
+  left: 58px;
+}
+
+.logo-link:hover {
+  opacity: 0.6;
+}
+
+.logo-link:focus-visible {
+  border: 2px solid #AF4FFF;
+  outline: none;
+}
+
+.logo-link:active {
+  opacity: 0.3;
 }
 
 .navigation-form {
@@ -80,39 +96,105 @@ body {
   border-radius: 0 20px 20px 0;
 }
 
+.header-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.header-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #000000;
+}
+
+.header-button:focus-visible {
+  outline: 2px solid #AF4FFF;
+}
+
 .navigation {
   display: flex;
   padding-top: 45px;
   margin-left: 60px;
   width: 1040px;
   min-height: 60px;
-
-}
-
-.navigation-user {
-
 }
 
 .user-button {
   font-family: "rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
-  background-color: #FFE17F;
   height: 30px;
   width: 81px;
   background-image: url("../images/user.svg");
   background-repeat: no-repeat;
+  background-position: -2px 8px;
+  background-color: #FFE17F;
   text-align: end;
   padding: 0;
-  margin-left: 26px;
+  margin-top: 4px;
+  margin-left: 28px;
+  cursor: pointer;
+  border: 2px solid #00000000;
+}
+
+.user-button:hover {
+  opacity: 0.6;
+}
+
+.user-button:active {
+  opacity: 0.3;
+}
+
+.user-button:focus-visible {
+  border: 2px solid #AF4FFF;
+  outline: none;
 }
 
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
-  color: #000000;
+  min-width: 240px;
+  height: 30px;
+  margin: 0;
+  margin-left: 174px;
+  margin-top: 5px;
+  padding: 0;
 }
 
-.navigation-link {
+.navigation-link-first {
+  display: inline-block;
   text-decoration: none;
+  color: #000000;
+  background-image: url("../images/compare.svg");
+  background-repeat: no-repeat;
+  background-position-y: 9px;
+  width: 105px;
+  text-align: end;
+}
+
+.navigation-link-second {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  background-image: url("../images/basket.svg");
+  background-repeat: no-repeat;
+  background-position: 9px 6px;
+  margin-left: 25px;
+  width: 110px;
+  text-align: end;
+}
+
+.navigation-link-first:hover,
+.navigation-link-second:hover {
+  opacity: 0.6;
+}
+
+.navigation-link-first:active,
+.navigation-link-second:active {
+  opacity: 0.3;
+}
+
+.navigation-link-first:focus-visible,
+.navigation-link-second:focus-visible {
+  outline: 2px solid #AF4FFF;
 }
