@@ -115,7 +115,7 @@ body {
   padding-top: 45px;
   margin-left: 60px;
   width: 1040px;
-  min-height: 60px;
+  min-height: 40px;
 }
 
 .user-button {
@@ -200,7 +200,20 @@ body {
   outline: 2px solid #AF4FFF;
 }
 
-.subject {
+.product-catalog {
+  margin-left: 60px;
+  margin-top: 26px;
+}
+
+.product-catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-catalog-item {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -209,6 +222,83 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin: 0;
+}
+
+.catalog {
+  display: inline-block;
+  position: relative;
+  background-image: url("../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: 243px;
+  width: 300px;
+}
+
+.catalog-link {
+  color:#000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.plus-link {
+  padding-right: 70px;
+  line-height: 60px;
+}
+
+.delivery {
+  margin-left: auto;
+  margin-right: 43px;
+  margin-top: 19px;
+}
+
+.guarantee {
+  margin-right: 48px;
+  margin-top: 19px;
+}
+
+.contacts {
+  margin-right: 56px;
+  margin-top: 19px;
+}
+
+.hidden {
+  display: none;
+}
+
+.plus {
+  position: absolute;
+  top: -16px;
+  left: 243px;
+}
+
+.product-catalog:hover .subcatalog {
+  display: grid;
+  grid-template-columns: 222px 211px 211px;
+}
+
+.subcatalog-list {
+  padding: 0;
+  margin: 0;
+}
+
+.list-two {
+  margin-left: 30px;
+}
+
+.list-three {
+  margin-left: 32px;
+}
+
+.subcatalog-item {
+  list-style-type: none;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+.subcatalog-link {
+  color:#000000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .visually-hidden {
