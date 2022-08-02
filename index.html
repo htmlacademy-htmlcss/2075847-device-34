@@ -22,7 +22,46 @@
           <a class="navigation-link-first" href="#">Сравнить</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link-second" href="#">Корзина</a>
+          <a class="navigation-link-second" href="#">Корзина
+            <div class="thumb">2</div>
+          </a>
+          <div class="popover popover-cart">
+            <button class="popover-close-button button button-light">
+              <span class="visually-hidden">Закрыть</span>
+            </button>
+            <div class="popover-content">
+              <div class="popover-pointer"></div>
+              <ul class="cart-items-list">
+                <li class="cart-item">
+                  <a class="cart-item-link" href="#">
+                    <img class="product-1" src="/images/product-1-small.jpg" width="39px" height="43px" alt="">
+                    <p class="cart-item-tittle">Любительская <br>селфи-палка</p>
+                  </a>
+                  <button class="content-delete-button button">
+                    <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.08 9.1.17 5 4.26.9.16l-.9.92 4.1 4.09L0 9.26l.9.9L5 6.09l4.1 4.09.9-.91-4.1-4.1L10 1.09Z" fill="#fff"/></svg>
+                    <span class="visually-hidden">Удалить товар</span>
+                  </button>
+                </li>
+                <li class="cart-item">
+                  <a class="cart-item-link" href="#">
+                    <img class="product-2" src="/images/product-2-small.jpg" width="50px" height="43px" alt="">
+                    <p class="cart-item-tittle">Профессиональная селфи-палка</p>
+                  </a>
+                  <button class="content-delete-button button">
+                    <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.08 9.1.17 5 4.26.9.16l-.9.92 4.1 4.09L0 9.26l.9.9L5 6.09l4.1 4.09.9-.91-4.1-4.1L10 1.09Z" fill="#fff"/></svg>
+                    <span class="visually-hidden">Удалить товар</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="popover-content-total">
+                <p class="content-product">Товаров: 2</p>
+                <p class="content-total">Сумма: 2000 ₽</p>
+              </div>
+              <div class="popover-content-basked">
+                <button class="open-basked-button">Открыть корзину</button>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
       </nav>
