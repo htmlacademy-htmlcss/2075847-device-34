@@ -554,7 +554,7 @@ body {
 }
 
 .hidden {
-  display: non;
+  display: none;
 }
 
 .visually-hidden {
