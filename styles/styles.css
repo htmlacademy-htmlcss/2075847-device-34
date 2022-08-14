@@ -225,6 +225,32 @@ body {
   background-color: #000000;
 }
 
+.characteristics-container {
+  display: flex;
+  margin: 0;
+  margin-top: 49px;
+}
+
+.characteristics-list {
+  margin: 0;
+}
+
+.characteristics-list + .characteristics-list {
+  margin-left: 20px;
+}
+
+.characteristics-definition {
+  font-size: 36px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.characteristics-term {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 12px;
+}
+
 .hidden {
   display: none;
 }
