@@ -227,16 +227,23 @@ body {
 
 .characteristics-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
   margin: 0;
   margin-top: 49px;
 }
 
 .characteristics-list {
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .characteristics-list + .characteristics-list {
   margin-left: 20px;
+}
+
+.device-list + .device-list{
+  margin-left: 40px;
 }
 
 .characteristics-definition {
