@@ -49,7 +49,7 @@ body {
   height: 560px;
   display: flex;
   position: absolute;
-  top: 191px;
+  top: 190px;
 }
 
 .slider {
@@ -113,7 +113,7 @@ body {
   line-height: 50px;
   width: 545px;
   margin: 0;
-  margin-top: 120px;
+  margin-top: 122px;
 }
 
 .slider-text {
@@ -124,7 +124,7 @@ body {
   line-height: 30px;
   width: 560px;
   margin: 0;
-  margin-top: 29px;
+  margin-top: 28px;
 }
 
 .number-one {
@@ -137,6 +137,92 @@ body {
   top: -99px;
   right: -551px;
   color:#ffffff;
+}
+
+.slider-content-button {
+  background-color:#ffffff;
+  border: none;
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  background-image: url("../images/button-style.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 220px;
+  height: 40px;
+  margin-left: 2px;
+  padding: 0;
+}
+
+.slider-content-button:hover {
+  background-color: #FFE17F;
+}
+
+.slider-content-button:focus-visible {
+  outline: 2px solid #AF4FFF;
+}
+
+.slider-content-button:active {
+  background-color: #FFCC33;
+  background-image: none;
+}
+
+.slider-pagination-container {
+  display: flex;
+  margin-top: 51px;
+}
+
+.slider-pagination {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  font-size: 0;
+  line-height: 0;
+}
+
+.slider-pagination-item {
+  height: 12px;
+  margin-top: 14px;
+}
+
+.slider-pagination-item + .slider-pagination-item {
+  margin-left: 20px;
+}
+
+.slider-pagination-item:focus-within {
+  outline: 2px solid #AF4FFF;
+  outline-offset: 2px;
+}
+
+.slider-pagination-button {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.slider-pagination-button:hover {
+  opacity: 0.6;
+}
+
+.slider-pagination-button:active {
+  opacity: 0.3;
+}
+
+.slider-pagination-button-current {
+  background-color: #000000;
 }
 
 .hidden {
