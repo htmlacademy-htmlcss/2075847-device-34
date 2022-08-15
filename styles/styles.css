@@ -553,17 +553,25 @@ body {
   text-decoration: underline;
 }
 
+.main-index {
+  transform: translateY(-150px);
+}
+
 .page-main {
   width: 1160px;
   margin: 0 auto;
 }
 
-.slider-container {
+.slider-container-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-container-item {
   width: 560px;
   height: 560px;
   display: flex;
-  position: absolute;
-  top: 190px;
 }
 
 .slider {
@@ -649,7 +657,8 @@ body {
   font-size: 180px;
   line-height: 30px;
   top: -99px;
-  right: -551px;
+  right: 48px;
+  z-index: -1;
   color:#ffffff;
 }
 
